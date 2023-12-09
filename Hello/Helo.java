@@ -9,6 +9,8 @@ import java.util.Scanner;
         String brand = "Lamborghini - 1D4545";
         int carNo = 343434; 
     }
+
+
 public class Helo {
 
     
@@ -18,6 +20,27 @@ public class Helo {
             Car mana = new Car();
 
             System.out.println(mana.brand);
+
+            String[] great = {"Marvel", "Kookabura", " MRF"} ;
+
+            for(int i = 0 ; i<great.length; i++){
+                System.out.println("*"+ great[i]);
+            }
+
+            int x= 10; 
+
+            for(int i = 0 ; i<x; i++){
+                for(int j = 0 ; j<i; j++){
+                    System.out.print(" * ");
+                }
+                System.out.println();
+            }
+            for(int i = x ; i>=0; i--){
+                for(int j = 0 ; j<i; j++){
+                    System.out.print(" * ");
+                }
+                System.out.println();
+            }
    
     }
 
